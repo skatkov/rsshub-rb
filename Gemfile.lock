@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    rsshub (0.1.0)
+      anyway_config (>= 2.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    anyway_config (2.3.0)
+      ruby-next-core (>= 0.14.0)
+    minitest (5.15.0)
+    rake (13.0.6)
+    ruby-next-core (0.14.1)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  minitest (~> 5.0)
+  rake (~> 13.0)
+  rsshub!
+
+BUNDLED WITH
+   2.2.29
