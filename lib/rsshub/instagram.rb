@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module RSSHub
 	class Instagram
 		def self.call(key:)
